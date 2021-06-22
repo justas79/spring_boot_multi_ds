@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    postgre:
+      jdbc-url: jdbc:postgresql://localhost:5432/sportpoint
+      username: admin
+      password: admin
+
+    mysql:
+      jdbc-url: jdbc:mysql://localhost:3306/bokun?serverTimezone=UTC
+      username: bokun
+      password: bokun
+
+#  jpa:
+#    hibernate:
+#      ddl-auto: none
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+
+
+
